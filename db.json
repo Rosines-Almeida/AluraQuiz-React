@@ -1,43 +1,84 @@
 {
-    "bg":  "https://pallottamartins.com.br/wp-content/uploads/2019/05/inteligencia-artifical-825x340.jpg",
+  
+    "bg":  "https://images.assetsdelivery.com/compings_v2/wowomnom/wowomnom1711/wowomnom171100063.jpg",
     
-    "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "title": "Teste rápido de QI",
+    "description": "Responda essas 5 questões e veja a quantas anda seu raciocínio numérico, verbal e espacial.",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://media3.giphy.com/media/xTiQywlOn0gKyz0l56/giphy.gif",
+        "title": "Se o dia depois de amanhã é dois dias antes da quinta-feira, que dia é hoje?",
+        "description": "",
+        "answer": 3,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Quarta",
+          "Segunda",
+          "Terça",
+          "Domingo"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://webstockreview.net/images/check-clipart-gif-animation-6.gif",
+        "title": "Marque a palavra que não combina com as outras",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+           "Cuiabá",
+           "Cairo",
+           "Buenos Aires",
+           "Campinas"
+        ]
+      },
+      {
+        "image": "https://cdn.dribbble.com/users/39548/screenshots/554208/numbers_anim.gif",
+        "title": "4-7-11-18-29... Qual é o próximo número nessa sequência? ",
+        "description": "",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "47",
+           "46",
+           "55",
+           "40"
+        ]
+      },
+      {
+        "image": "https://media3.giphy.com/media/ZXwdJuk172dQwAqMGv/giphy.gif",
+        "title": "Fernanda gosta do número 96, mas não do 45. Ela também gosta do número 540, mas não do 250. De qual número abaixo ela gosta?",
+        "description": "",
+        "answer": 3,
+        "alternatives": [
+           "128",
+           "140",
+           "93",
+           "132"
+        ]
+      },
+      {
+        "image": "https://i.pinimg.com/originals/bd/64/2a/bd642a27051c847a8945060e728ac6f3.gif",
+        "title": "C, F, I, L, O... Nesta sequência, qual é a próxima letra?",
+        "description": "",
+        "answer": 1,
+        "alternatives": [
+           "T",
+           "R",
+           "W",
+           "Q"
         ]
       }
     ],
     "external": [
-      "https://alura-quiz-base.abnner13.vercel.app/",
+      "https://doctor-who-quiz.emanuelpna.vercel.app/",
+      "https://disgust-quiz.arrivabeni.vercel.app",
       "https://crash-bandicoot-quiz.andrequintero.vercel.app/"
+     
     ],
     "theme": {
       "colors": {
-        "primary": "#0d47a1",
-        "secondary": "#29b6f6",
+        "primary": "#ff4081",
+        "secondary": "#ff4081",
         "mainBg": "#171B35",
         "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
+        "wrong": "#f50057",
         "success": "#4CAF50"
       },
       "borderRadius": "4px"

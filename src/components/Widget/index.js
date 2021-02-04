@@ -7,6 +7,7 @@ const Widget = styled.div`
   background-color: ${({ theme }) => theme.colors.mainBg};
   border-radius: 4px;
   overflow: hidden;
+
   h1, h2, h3 {
     font-size: 16px;
     font-weight: 700;
@@ -45,6 +46,7 @@ Widget.Content = styled.div`
     padding: 0;
   }
 `;
+
 Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;
