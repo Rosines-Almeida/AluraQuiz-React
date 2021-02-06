@@ -1,3 +1,6 @@
+<img width="929" alt="img-1" src="https://user-images.githubusercontent.com/39601714/107120996-cf631300-686e-11eb-804e-f0c8529964f5.PNG">
+
+
 # Example app with styled-components
 
 This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
