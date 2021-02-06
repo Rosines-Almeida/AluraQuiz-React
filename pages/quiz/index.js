@@ -11,45 +11,21 @@ import BackLinkArrow from '../../src/components/BackLinkArrow';
  
 function ResultWidget({ results }) {
   let  questionsCorrect  = results.filter((x) => x).length;
-  console.log( questionsCorrect)
   return (
     <Widget>
       <Widget.Header>
         Tela de Resultado:
       </Widget.Header>
     
-      <Widget.Content> 
-          {/* {results.reduce((somatoriaAtual, resultAtual) => {
-            const isAcerto = resultAtual === true;
-            if (isAcerto) {
-              return somatoriaAtual + 1;
-            }
-            debugger
-            questionsCorrect = somatoriaAtual
-            console.log(somatoriaAtual)
-            return somatoriaAtual;
-          }, 0)} */}
-           
+      <Widget.Content>     
         {questionsCorrect == 0 && (<p> Não foi desta vez, nenhuma resposta correta. Tente novamente. </p>)}
         {questionsCorrect == 1 && (<p> Você acertou {questionsCorrect} questão, tente novamente.</p>)}
-        {questionsCorrect < 4 && ( <p> Você acertou {questionsCorrect} questões, tente novamente.</p>)} 
+        {questionsCorrect > 1 && questionsCorrect < 4 && ( <p> Você acertou {questionsCorrect} questões, tente novamente.</p>)} 
         {questionsCorrect >= 4 && (   <p> Parabéns você acertou {questionsCorrect} questões. </p>)}
-       
-        {/* <ul>
-          {results.map((result, index) => (
-            <li key={`result__${index}`}>
-              #
-              {index + 1}
-              {' '}
-              Resultado:
-              {result === true
-                ? 'Acertou'
-                : 'Errou'}
-            </li>
-          ))}
-        </ul> */}
+    
       </Widget.Content>
     </Widget>
+    
   );
 }
 
@@ -151,10 +127,7 @@ function QuestionWidget({
               </Widget.Topic>
             );
           })}
-
-          {/* <pre>
-            {JSON.stringify(question, null, 4)}
-          </pre> */}
+ 
           <Button type="submit" disabled={!hasAlternativeSelected}>
             Confirmar
           </Button>
@@ -220,6 +193,7 @@ export default function QuizPage() {
         {screenState === screenStates.LOADING && <LoadingWidget />}
 
         {screenState === screenStates.RESULT && <ResultWidget results={results} />}
+        
       </QuizContainer>
     </QuizBackground>
   );

@@ -9,12 +9,10 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     margin: 0;
-    padding: 0;
-    /* New styles */
+    padding: 0; 
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    // Deixa branco no começo
+    font-family: 'Lato', sans-serif; 
     color: ${({ theme }) => theme.colors.contrastText};
   }
   html, body {

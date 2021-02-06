@@ -14,13 +14,6 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
 
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   flex: 1;
-//   background-size: cover;
-//   background-position: center;
-// `;
-
 const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
@@ -64,7 +57,6 @@ export default function Home() {
             <form onSubmit={function (infosDoEvento) {
               infosDoEvento.preventDefault();
               router.push(`/quiz?name=${name}`);
-              console.log('Fazendo uma submissão por meio do react');
             }}
             >
               <Input

@@ -27,10 +27,7 @@ const InputBase = styled.input`
     </div>
   );
 }
-
-// Input.defaultProps = {
-//   value: '',
-// };
+ 
 
 Input.propTypes = {
   onChange: PropTypes.func.isRequired,
