@@ -1,5 +1,6 @@
-<img width="929" alt="img-1" src="https://user-images.githubusercontent.com/39601714/107120996-cf631300-686e-11eb-804e-f0c8529964f5.PNG">
-
+<div align="center"> 
+<img alt="img-1" src="https://user-images.githubusercontent.com/39601714/160681265-965087a5-1342-4412-a6af-259abe44416c.gif" width="400">
+</div> 
 
 # Example app with styled-components
 
