@@ -16,10 +16,9 @@
 * **Visual Studio Code**
 * **React**
 * **Vercel** 
-# Example app with styled-components
 
 ## Executando localmente o projeto
-## Executando localmente o projeto
+
 ``` bash
 # install dependencies
 npm install
