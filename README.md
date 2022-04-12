@@ -8,7 +8,7 @@ https://techno-vue.vercel.app/#
 ## Aparência
 
 <div align="center"> 
-<img alt="img-1" src="" width="400">
+<img alt="img-1" src="https://user-images.githubusercontent.com/39601714/162995104-650f061d-4b6a-4266-99b6-69155b3dfab2.gif" width="500">
 </div> 
 
 ## Recursos utilizados
