@@ -3,7 +3,7 @@
 <p> Teste seus conhecimentos com o quiz de raciocínio numérico, verbal e espacial.
 <p> Desenvolvido em React, durante a imersão da Alura<br> 
  
-https://techno-vue.vercel.app/#
+https://alura-quiz-react-rosines-almeida.vercel.app/
 
 ## Aparência
 
